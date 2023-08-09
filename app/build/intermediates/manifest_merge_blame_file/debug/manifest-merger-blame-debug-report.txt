@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mvvmchallenge"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/shreyaparikh/AndroidStudioProjects/MVVMChallenge/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/shreyaparikh/AndroidStudioProjects/MVVMChallenge/app/src/main/AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /Users/shreyaparikh/.gradle/caches/transforms-3/3a73d4c1cdf65c14c4dc712518275464/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.mvvmchallenge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /Users/shreyaparikh/.gradle/caches/transforms-3/3a73d4c1cdf65c14c4dc712518275464/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /Users/shreyaparikh/.gradle/caches/transforms-3/3a73d4c1cdf65c14c4dc712518275464/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.mvvmchallenge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /Users/shreyaparikh/.gradle/caches/transforms-3/3a73d4c1cdf65c14c4dc712518275464/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /Users/shreyaparikh/.gradle/caches/transforms-3/3a73d4c1cdf65c14c4dc712518275464/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/shreyaparikh/AndroidStudioProjects/MVVMChallenge/app/src/main/AndroidManifest.xml:5:5-11:54
+18        android:allowBackup="true"
+18-->/Users/shreyaparikh/AndroidStudioProjects/MVVMChallenge/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /Users/shreyaparikh/.gradle/caches/transforms-3/3a73d4c1cdf65c14c4dc712518275464/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/shreyaparikh/AndroidStudioProjects/MVVMChallenge/app/src/main/AndroidManifest.xml:7:9-43
+23        android:label="@string/app_name"
+23-->/Users/shreyaparikh/AndroidStudioProjects/MVVMChallenge/app/src/main/AndroidManifest.xml:8:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/shreyaparikh/AndroidStudioProjects/MVVMChallenge/app/src/main/AndroidManifest.xml:9:9-54
+25        android:supportsRtl="true"
+25-->/Users/shreyaparikh/AndroidStudioProjects/MVVMChallenge/app/src/main/AndroidManifest.xml:10:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.MVVMChallenge" >
+27-->/Users/shreyaparikh/AndroidStudioProjects/MVVMChallenge/app/src/main/AndroidManifest.xml:11:9-51
+28        <provider
+28-->[androidx.emoji2:emoji2:1.2.0] /Users/shreyaparikh/.gradle/caches/transforms-3/61adc85933b7437a31b50803fc41d47e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+29            android:name="androidx.startup.InitializationProvider"
+29-->[androidx.emoji2:emoji2:1.2.0] /Users/shreyaparikh/.gradle/caches/transforms-3/61adc85933b7437a31b50803fc41d47e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+30            android:authorities="com.example.mvvmchallenge.androidx-startup"
+30-->[androidx.emoji2:emoji2:1.2.0] /Users/shreyaparikh/.gradle/caches/transforms-3/61adc85933b7437a31b50803fc41d47e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+31            android:exported="false" >
+31-->[androidx.emoji2:emoji2:1.2.0] /Users/shreyaparikh/.gradle/caches/transforms-3/61adc85933b7437a31b50803fc41d47e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+32            <meta-data
+32-->[androidx.emoji2:emoji2:1.2.0] /Users/shreyaparikh/.gradle/caches/transforms-3/61adc85933b7437a31b50803fc41d47e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+33                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+33-->[androidx.emoji2:emoji2:1.2.0] /Users/shreyaparikh/.gradle/caches/transforms-3/61adc85933b7437a31b50803fc41d47e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+34                android:value="androidx.startup" />
+34-->[androidx.emoji2:emoji2:1.2.0] /Users/shreyaparikh/.gradle/caches/transforms-3/61adc85933b7437a31b50803fc41d47e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+35            <meta-data
+35-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shreyaparikh/.gradle/caches/transforms-3/129067ac20a2870afccfac31f5e58843/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+36                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+36-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shreyaparikh/.gradle/caches/transforms-3/129067ac20a2870afccfac31f5e58843/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+37                android:value="androidx.startup" />
+37-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shreyaparikh/.gradle/caches/transforms-3/129067ac20a2870afccfac31f5e58843/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+38        </provider>
+39    </application>
+40
+41</manifest>
